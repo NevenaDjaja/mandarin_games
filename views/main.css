@@ -1,0 +1,17 @@
+body {
+	font-family: Verdana, Helvetica, sans-serif;
+}
+
+.game-img {
+	float: left;
+	margin-right: 16px;
+}
+
+.game-img img {
+	width: 50px;
+}
+
+.heading {
+	clear: both;
+}
+

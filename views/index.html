@@ -1,0 +1,46 @@
+	<!DOCTYPE HTML>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Games app</title>
+		<link rel="stylesheet" type="text/css" href="views/main.css">
+		<script src="lib/jquery-min.js"></script>
+		<script src="lib/underscore.js"></script>
+		<script src="lib/backbone-min.js"></script>
+		<script src="lib/backbone.marionette.js"></script>
+		<script src="views/main.js"></script> 
+	</head>
+
+	<body>
+		
+		<div id="body">
+			<div id='header'>
+				<img src=""></img>
+				<h3>Hi, Lovely User</h3>
+				<p><img src="images/avatar1@2x.png" alt="avatar" width="30"/>See what your friends are playing or add some if you don't have any.</p>
+			</div>
+
+			<!-- main region -->
+			<div id='main'>
+			</div>
+
+			<script type="text/template" id="topics-template">
+			</script>
+			
+			<script type="text/template" id="topic-template">
+			  <div style="clear: both;"></div>
+				<h4 class="heading"><%= heading %></h4>
+				<div id="topic"></div>
+			</script>
+
+			
+			<script type="text/template" id="game-template">
+				<img src="images/<%= image_path %>" alt="<%= title %>"/>
+			</script>
+
+		</div>
+
+
+	</body>
+
+</html>
